@@ -29,7 +29,7 @@ function App(props) {
             <form onSubmit={(ev) => ev.preventDefault()}>
                 <input onChange={(ev)=>setValue(ev.target.value)} placeholder={'lalala'}/>
                 <button onClick={() => lonAndLen()}>click</button>
-                poiujhygfdsdfghujki
+                <button>clivk</button>
             </form>
         </div>
     );
