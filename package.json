@@ -1,8 +1,7 @@
-{
+{"homepage": "https://GrigoryanGayane17.github.io/Weather-application/",
   "name": "weather-app-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://grigoryangayane17.github.io/Weather-app/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
