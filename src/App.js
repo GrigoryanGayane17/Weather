@@ -28,6 +28,9 @@ function App(props) {
             <input onChange={(ev) => setValue(ev.target.value)} placeholder={'lalala'}/>
             <button onClick={() => lonAndLen()}>click</button>
             <p>sdjhfbdhf</p>
+            <p>sdjhfbdhf</p>
+            <p>sdjhfbdhf</p>
+            <p>sdjhfbdhf</p>
         </form>
     </div>);
 }
