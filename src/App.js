@@ -13,7 +13,7 @@ function App(props) {
             })    // Log the actual data
             .catch(error => console.error("Error fetching data:", error));
 
-        console.log(lat, lon)
+        console.log(lat, lon,"test")
 
         const resData = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=b05c48dc7af7a4871fb96d46b62056ad`)
             .then(response => response.json())  // Convert response to JSON
@@ -27,7 +27,7 @@ function App(props) {
         <form onSubmit={(ev) => ev.preventDefault()}>
             <input onChange={(ev) => setValue(ev.target.value)} placeholder={'lalala'}/>
             <button onClick={() => lonAndLen()}>click</button>
-            <h1>sadbiASBD</h1>
+            <h1>sadbiASBD;lkjhgfds</h1>
         </form>
     </div>);
 }
