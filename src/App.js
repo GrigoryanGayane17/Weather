@@ -60,6 +60,7 @@ function App() {
                                 <input className="search-input" onChange={(ev) => setValue(ev.target.value)}
                                        placeholder="Write the City name"/>
                                 <button className="search-button" onClick={getData}>Search</button>
+                                <button>Clickkkkk</button>
                             </form>
                         </div>
                     </div>
